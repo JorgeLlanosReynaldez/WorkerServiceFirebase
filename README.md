@@ -61,9 +61,11 @@ La configuración del servicio se encuentra en el archivo `appsettings.json`. Aq
 }
 ```
 ### Librerías Utilizadas
+```
 <PackageReference Include="CsvHelper" Version="33.0.1" />
 <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
 <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+```
 
 ### Se muestra un ejemplo de cómo los datos se insertan en Firebase. Este es un registro de una película, con diversos atributos como el género principal, el año de lanzamiento y las recomendaciones.
 "-OKYUjFL16s2hSAkgTRq": {
