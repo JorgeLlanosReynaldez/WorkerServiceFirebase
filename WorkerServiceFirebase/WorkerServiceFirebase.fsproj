@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <UserSecretsId>dotnet-WorkerServiceFirebase-33bc3fee-ead6-4287-aa89-8c12de404e73</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Compile Include="Config.fs" />
+    <None Include="Dataset\Movies.csv" />
+    <Compile Include="Worker.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <ProjectReference Include="..\Logic\Logic.fsproj" />
+	  <ProjectReference Include="..\Database\Database.fsproj" />
+  </ItemGroup>
+</Project>
