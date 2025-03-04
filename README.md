@@ -68,6 +68,7 @@ La configuración del servicio se encuentra en el archivo `appsettings.json`. Aq
 ```
 
 ### Se muestra un ejemplo de cómo los datos se insertan en Firebase. Este es un registro de una película, con diversos atributos como el género principal, el año de lanzamiento y las recomendaciones.
+```
 "-OKYUjFL16s2hSAkgTRq": {
   "MainGenre": "Drama",
   "MaturityRating": "1994",
@@ -78,3 +79,4 @@ La configuración del servicio se encuentra en el archivo `appsettings.json`. Aq
   "SubGenres": "Crime",
   "Title": "The Shawshank Redemption"
 }
+```
